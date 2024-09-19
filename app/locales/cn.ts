@@ -523,7 +523,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "欢迎使用NextChat！[[文件上传]](https://upload.gongxiangai.top/upload.php)|[[消费查询]](https://www.gptacg.com/juhebill/)|[[API-Key自助购买]](https://one.mmwcy.cn/)|[[聚合AI官网]](https://www.gptacg.com)",
+    BotHello: "欢迎使用NextChat！[[文件上传]](https://upload.gongxiangai.top/upload.php)|[[消费查询]](https://juheai.qyiwl.cn/query/)|[[API-Key自助购买]](https://one.mmwcy.cn/)|[[聚合AI官网]](https://juheai.qyiwl.cn/)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
