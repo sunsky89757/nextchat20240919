@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "请在[设置](/#/settings)页填入两项信息：1、接口信息：`https://api.juheai.top`;2、填入购买的API-Key | [[查看图示说明]](https://www.gptacg.com/wp-content/uploads/2024/03/配置方法.webp)",
   },
   Auth: {
     Title: "需要密码",
@@ -523,7 +523,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "欢迎使用NextChat！[[文件上传]](https://upload.gongxiangai.top/upload.php)|[[消费查询]](https://www.gptacg.com/juhebill/)|[[API-Key自助购买]](https://one.mmwcy.cn/)|[[聚合AI官网]](https://www.gptacg.com)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
